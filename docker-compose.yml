@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  app:
+
+    # Use latest Python Docker image
+    image: "python:latest"
+
+    # Set container name
+    container_name: flask-dock
+
+    # Set environment variables
+    environment:
+      - FLASK_ENV=venv
+      - FLASK_APP=/home/maxxidata/library/flask_project/dock.py
+      - DATABASE=/home/maxxidata/library/flask_project/db.dock
+
+    # Mount entire project into docker container 
+    volumes:
+      - ./://home/maxxidata/library/flask_project
+
+    # Make all ports accessible on host
+    network_mode: host
+
+    # Install requirements and start flask app
+    entrypoint: 
+      bash -c "pip install -r /home/maxxidata/library/flask_project/requirements.txt
+      && flask run"

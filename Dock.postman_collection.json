@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "b330f433-5266-4280-bf1d-6c7a5677a8cf",
+		"name": "Dock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pessoa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/pessoas/?nome=felipe&cpf=347&dataNascimento=31-12-2018",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pessoas",
+						""
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "felipe"
+						},
+						{
+							"key": "cpf",
+							"value": "347"
+						},
+						{
+							"key": "dataNascimento",
+							"value": "31-12-2018"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deposito",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/pessoas/?nome=felipe&cpf=347&dataNascimento=31-12-2018",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pessoas",
+						""
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "felipe"
+						},
+						{
+							"key": "cpf",
+							"value": "347"
+						},
+						{
+							"key": "dataNascimento",
+							"value": "31-12-2018"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Conta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/conta/?saldo=1100.10&limiteSaqueDiario=500.00&flagAtivo=True&tipoConta=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"conta",
+						""
+					],
+					"query": [
+						{
+							"key": "saldo",
+							"value": "1100.10"
+						},
+						{
+							"key": "limiteSaqueDiario",
+							"value": "500.00"
+						},
+						{
+							"key": "flagAtivo",
+							"value": "True"
+						},
+						{
+							"key": "tipoConta",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Extrato",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/conta/?saldo=1100.10&limiteSaqueDiario=500.00&flagAtivo=True&tipoConta=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"conta",
+						""
+					],
+					"query": [
+						{
+							"key": "saldo",
+							"value": "1100.10"
+						},
+						{
+							"key": "limiteSaqueDiario",
+							"value": "500.00"
+						},
+						{
+							"key": "flagAtivo",
+							"value": "True"
+						},
+						{
+							"key": "tipoConta",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saldo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/conta/?saldo=1100.10&limiteSaqueDiario=500.00&flagAtivo=True&tipoConta=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"conta",
+						""
+					],
+					"query": [
+						{
+							"key": "saldo",
+							"value": "1100.10"
+						},
+						{
+							"key": "limiteSaqueDiario",
+							"value": "500.00"
+						},
+						{
+							"key": "flagAtivo",
+							"value": "True"
+						},
+						{
+							"key": "tipoConta",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saque",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/conta/?saldo=1100.10&limiteSaqueDiario=500.00&flagAtivo=True&tipoConta=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"conta",
+						""
+					],
+					"query": [
+						{
+							"key": "saldo",
+							"value": "1100.10"
+						},
+						{
+							"key": "limiteSaqueDiario",
+							"value": "500.00"
+						},
+						{
+							"key": "flagAtivo",
+							"value": "True"
+						},
+						{
+							"key": "tipoConta",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
